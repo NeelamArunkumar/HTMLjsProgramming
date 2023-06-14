@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Program</title>
+</head>
+<body>
+    <h1>
+        Example 2: Add Two Numbers Entered by the User
+    </h1>
+    <script>
+        // store input numbers
+        const num1 = parseInt(prompt('Enter the first number '));
+        const num2 = parseInt(prompt('Enter the second number '));
+
+        // add two numbers
+        const sum = num1 + num2;
+
+        // display the sum
+        console.log(`The sum of ${num1} and ${num2} is ${sum}`);
+
+        /*
+            The above program asks the user to enter two numbers. 
+            Here, prompt() is used to take inputs from the user.
+            parsetInt() is used to convert the user input string to number.
+
+        */
+
+        /*
+            We have used the template literal `` . This allow us to include variables inside strings.
+
+            To include variables inside `` , you need to use the ${variable} format.
+        */
+    </script>
+</body>
+</html>
